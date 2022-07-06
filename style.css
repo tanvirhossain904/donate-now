@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FCFFE7;
+}
+
+/* Main Section  */
+
+.top-banner {
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    opacity: 0.7;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    padding-top: 170px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero-text h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background: linear-gradient(#3cc88f, #96DEDA);
+    text-decoration: none;
+    padding: 15px 34px;
+    font-size: 21px;
+    color: white;
+    border-radius: 5%;
+}
+
+/* Donation Section  */
+
+.donate-section {
+    text-align: center;
+}
+
+.donations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-text h2 {
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-text p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col-1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    padding: 22px 42px;
+    color: gray;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    border-radius: 5%;
+}
+
+.orange-color{
+    background-color: #dceee7;
+    border: 2px solid ;
+    color: #3cc88f;
+}
+
+#my-line {
+    margin: auto;
+    height: 2px;
+    width: 53%;
+    background-color: gray;
+    border: 0px solid black;
+    margin-bottom: 40px;
+}
+
+/* Vision Section  */
+
+.row{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.col-2{
+    text-align: start;
+    width: 25%;
+    border: 2px solid transparent;
+    padding: 70px 78px 36px 14px;
+    margin: 7px;
+}
+
+.skyblue{
+    background-color: #CDF0EA;
+}
+
+.rainbow{
+    background-color: #FCF8E8;
+}
+
+.retro{
+    background-color: #F1DDBF;
+}
+
+/* Call To Action Section  */
+
+.half-width{
+    width: 50%;
+    text-align: start;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 70%;
+}
+
+.half-width h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 56px;
+}
+
+.half-width p{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+/* About Section  */
+
+
+form{
+    display: flex;
+    padding: 70px 50px;
+    width: 50%;
+    margin-left: 25%;
+    background-image: linear-gradient(#B1EDEE, #AAE2E3);
+    margin-bottom: 70px;
+}
+
+#emailbar {
+    justify-content: center;
+}
+
+.form-inline {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form input{
+    color: white;
+    padding: 8px 16px;
+    background-color: darkgrey;
+    border: none;
+}
+
+.btn-primary{
+padding: 8px 24px;
+background-color: #3cc88f;
+font-weight: 700;
+border: none;
+}
+
+/* Footer Section  */
+
+footer {
+    background: black;
+    color: white;
+    height: 140px;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'Satisfy', cursive;
+    color: tomato;
+    line-height: 3em;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 16px;
+}
+
+.copyright p{
+    text-align: left;
+    padding: 16px;
+    color: gray;
+    font-size: 8px;
+}
+
+/* End  */
